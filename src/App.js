@@ -4,10 +4,11 @@ import Sidebar from "./Components/SideBar/Sidebar";
 
 function App() {
   return (
-    <div className="App">
-      <h1>WhatsApp</h1>
-      <Sidebar />
-      <Chat />
+    <div className="app">
+      <div className="app-body">
+        <Sidebar />
+        <Chat />
+      </div>
     </div>
   );
 }
